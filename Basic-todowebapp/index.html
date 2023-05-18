@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	
+	<header>
+		<h1>Task List </h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+
+			
+
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-text">
+			<p>
+				Made   by  Shivam for OASIS TASK 
+			</p>
+		</div>
+		<div class="footer-iconTop">
+			<a href="#"><i class='bx bxs-up-arrow-circle'></i></a>
+		</div>
+	</footer>
+	
+	<script src="script.js"></script>
+</body>
+</html>
